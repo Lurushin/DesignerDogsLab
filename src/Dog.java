@@ -29,7 +29,8 @@ public class Dog {
     public String getName() {
         return name;
     }
-    public int getPeopleAge(int multiplier) {
+    public int getPeopleAge(int m) {
+        multiplier = m;
         return age * multiplier;
     }
     public void increaseAgeByOne() {
