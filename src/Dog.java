@@ -18,6 +18,11 @@ public class Dog {
         name = n;
         multiplier = 7;
     }
+    public Dog(int a) {
+        age = a;
+        name = "";
+        multiplier = 7;
+    }
     public Dog() {
         age = 1;
         name = "dog";
